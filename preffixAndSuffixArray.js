@@ -20,15 +20,6 @@ function prefixToSuffix(prefixSumArray) {
     for (let i = originalArray.length - 1; i >= 0; i--){
 		sum+= originalArray[i];
         suffixArray.unshift(sum);
-		/*
-		if(i == originalArray.length - 1){
-            suffixArray.unshift(originalArray[i]);
-        }
-        else{
-			//console.log(`Elemento: ${originalArray[i]} + Elemento vecino: ${originalArray[i+1]} = ${originalArray[i] + originalArray[i + 1]}  Indice: ${i} Suma: ${sum}`);
-            suffixArray.unshift(originalArray[i] + originalArray[i + 1]);
-        }
-		*/
     }
     return suffixArray;
 

@@ -13,15 +13,6 @@ function miniMaxSum(arr) {
 		} 
 		sumatoriaArr += arr[i];
 	} 
-	/*
-	console.log(`Arreglo original: ${arr}`); 
-	console.log(`Número máximo: ${maxNum}`); 
-	console.log(`Número mínimo: ${minNum}`); 
-	console.log(`Sumatoria: ${sumatoriaArr}`); 
-	
-	console.log(`Suma Mínima: ${sumatoriaArr-maxNum}`); 
-	console.log(`Suma Maxima: ${sumatoriaArr-minNum}`); 
-	*/
 	
 	console.log((sumatoriaArr-maxNum).toString() + " " + (sumatoriaArr-minNum).toString());
 	
